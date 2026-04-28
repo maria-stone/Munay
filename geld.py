@@ -21,7 +21,7 @@ class Currency:
         self.button = tk.Button(root, text="$", command=self.nachusd)
         self.button.pack(pady=10)
 
-        self.button = tk.Button(root, text="👄", command=self.sprache)
+        self.button = tk.Button(root, text="Sprache", command=self.sprache)
         self.button.pack(pady=10)
 
         # Label für Ausgabe
